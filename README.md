@@ -1,19 +1,19 @@
-# Discord-Sneaker-Fee-Bot
+# Fee Calculator 
 
-## Joseph Bittner, WatchDoges101, 11/25/2022
+Fee Calculator Bot for Discord app based off of discord.js
 
-New and improved sneaker fee bot written in Discord.js. 
-Make sure newest Discord.js and express packages have been installed.
+# Features:
+- !test => returns to see if the bot is up and running
+- !fee query => returns a embed message of all fees that concur from selling on a multivariety of ecommerce websites
 
-Get this from discord developer portal v
-Replace const token = 'your token here'
+# Installation:
+This bot is written via node.js and express.js Please visit https://nodejs.org/en/download and https://www.npmjs.com/package/express
 
-Right click on channel and copy link. For example -> "https://discord.com/channels/1040850141628348456/((1045524643233775716))"
-Copy this bit between the quotes 1045524643233775716
-Replace msg.channel.id == "Bots channel here"
+# Running
+Before running you will need to edit index.js file, insert your own discord token, and channel id that you want the bot to be run on. 
+To start it, simply type `node fee-calculator.js` 
 
-Once you have invited the bot through discord developer portal and these things have been changed, the bot is ready to start through node.js
+# Help:
+Feel free to DM myself on discord, austin_hx#2583 for any questions regarding the bot
 
-Take this code and redo it to your liking, If reusing the same code, please do not remove the footer text.
 
-If you have any issues submit a ticket and I will answer each question
